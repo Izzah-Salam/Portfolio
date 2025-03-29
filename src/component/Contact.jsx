@@ -37,12 +37,20 @@ const Contact = () => {
   };
 
   return (
-    <div className="flex justify-center items-center flex-col bg-inherit pt-52 pb-20  text-white ">
-      <h1 className="font-bold text-6xl mb-4">Contact Me</h1>
-      <p className="mb-10 text-gray-300">
+    <div className="flex justify-center items-center flex-col bg-inherit md:pt-40 pt-20 pb-20  text-white ">
+      <h1
+        id="contact"
+        className="font-bold lg:text-6xl md:text-5xl text-3xl mb-4"
+      >
+        Contact Me
+      </h1>
+      <p className="mb-10 md:text-sm  text-xs text-gray-300">
         Any Question? Please Fill out the Form Below
       </p>
-      <form onSubmit={onSubmit} className="flex flex-col gap-4 w-[500px]">
+      <form
+        onSubmit={onSubmit}
+        className="flex flex-col gap-4 md:w-[500px] w-[300px]"
+      >
         <input
           type="text"
           placeholder="Your Name"
@@ -66,7 +74,7 @@ const Contact = () => {
         ></textarea>
         <button
           type="submit"
-          className="bg-[#009E67] text-white px-4 py-2 rounded mt-6 "
+          className="bg-[#009E67] text-white px-4 py-2 rounded mt-6 md:text[16px] text-sm "
         >
           Send Message
         </button>

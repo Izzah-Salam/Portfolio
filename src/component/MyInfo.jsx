@@ -2,11 +2,13 @@ import React from "react";
 
 const MyInfo = () => {
   return (
-    <div className="bg-[#2A2A2A]  px-28 py-10 text-white">
+    <div className="bg-[#2A2A2A]  md:px-28 px-10 md:py-10 text-white">
       {/* About Me */}
       <div className="my-10">
-        <h1 className="text-6xl font-bold">About Me</h1>
-        <p className="text-gray-300 mt-4 leading-7">
+        <h1 id="about" className="lg:text-6xl md:text-5xl text-3xl font-bold">
+          About Me
+        </h1>
+        <p className="text-gray-300 mt-4 leading-7 md:text-[16px] text-sm ">
           I’m <span className="font-bold">Izzah Salam</span> , a Software
           Engineer specializing in{" "}
           <span className="font-bold uppercase">frontend development </span>{" "}
@@ -33,8 +35,10 @@ const MyInfo = () => {
       </div>
       {/* Work Experince */}
       <div className="my-10">
-        <h1 className="text-6xl font-bold">Work Experince</h1>
-        <div className="mt-7 flex justify-between ">
+        <h1 className="lg:text-6xl md:text-5xl text-3xl font-bold">
+          Work Experince
+        </h1>
+        <div className="mt-7 flex md:justify-between md:flex-row flex-col md:gap-0  gap-4 ">
           <div>
             <h2 className="text-gray-300 text-2xl mb-4">Web Development </h2>
             <div className="flex">
@@ -50,13 +54,15 @@ const MyInfo = () => {
             <p
               className="bg-[#009E67] 
     rounded-full 
-    py-1 
+    px-3 py-1 
+    
     text-center 
      capitalize
     text-white  
     text-sm
     mb-4 
-    
+md:block
+    inline-block
     drop-shadow-[0_0_6px_rgba(0,158,103,0.4)]
     hover:drop-shadow-[0_0_10px_rgba(0,158,103,0.6)]
     transition-all"
@@ -70,8 +76,10 @@ const MyInfo = () => {
       </div>
       {/* Education */}
       <div>
-        <h1 className="text-6xl font-bold">Education</h1>
-        <div className="mt-7 flex justify-between ">
+        <h1 className="lg:text-6xl md:text-5xl text-3xl font-bold">
+          Education
+        </h1>
+        <div className="mt-7 flex md:justify-between md:flex-row flex-col md:gap-0  gap-4 ">
           <div>
             <h2 className="text-gray-300 text-2xl mb-4">
               BS Computer Science{" "}
@@ -95,6 +103,7 @@ const MyInfo = () => {
     text-white  
     text-sm
     mb-4 
+    md:block inline-block
     
     drop-shadow-[0_0_6px_rgba(0,158,103,0.4)]
     hover:drop-shadow-[0_0_10px_rgba(0,158,103,0.6)]
@@ -107,7 +116,7 @@ const MyInfo = () => {
         </div>
 
         <hr class="border-t border-gray-300 my-4"></hr>
-        <div className="mt-7 flex justify-between ">
+        <div className="mt-7 flex md:justify-between md:flex-row flex-col md:gap-0  gap-4 ">
           <div>
             <h2 className="text-gray-300 text-2xl mb-4">
               Full Stack Enigeering Course{" "}
@@ -132,7 +141,7 @@ const MyInfo = () => {
     text-white  
     text-sm
     mb-4 
-    
+     md:block inline-block
     drop-shadow-[0_0_6px_rgba(0,158,103,0.4)]
     hover:drop-shadow-[0_0_10px_rgba(0,158,103,0.6)]
     transition-all "
