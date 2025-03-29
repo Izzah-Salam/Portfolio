@@ -16,7 +16,7 @@ import firebase from "../assets/img/firebase.png";
 import gsap from "../assets/img/gsap.png";
 import AI from "../assets/img/AI.png";
 import postman from "../assets/img/postman.png";
-import typescript from "../assets/img/typescript.png";
+import typescript from "../assets/img/Typescript.png";
 import redux from "../assets/img/redux.png";
 import next from "../assets/img/next.png";
 import shadcn from "../assets/img/shadcn.png";
