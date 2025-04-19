@@ -34,7 +34,7 @@ const TechStack = () => {
             Technologies I've been Working with{" "}
           </p>
         </div>
-        <div className="my-10 flex flex-wrap md:px-52 px-24 md:gap-x-20  gap-x-5 gap-y-5 justify-center items-center">
+        <div className="my-10 grid grid-cols-1 lg:grid-cols-5 sm:grid-cols-2 md:px-52 px-24 md:gap-x-20  gap-x-5 gap-y-5 justify-center items-center">
           <div className="flex flex-col justify-center items-center gap-3">
             <img src={html} alt="" className="w-[80px]" />
             <p className="text-white font-bold md:text-xl ">Html</p>
@@ -96,7 +96,7 @@ const TechStack = () => {
             My core stack + emerging technologies I'm exploring{" "}
           </p>
         </div>
-        <div className="my-10 flex flex-wrap md:px-52 px-24 md:gap-x-20  gap-x-5 gap-y-5 justify-center items-center">
+        <div className="my-10 grid grid-cols-1 lg:grid-cols-5 sm:grid-cols-2 md:px-52 px-24 md:gap-x-20  gap-x-5 gap-y-5 justify-center items-center">
           <div className="flex flex-col justify-center items-center gap-3">
             <img src={vs} alt="" className="w-[70px]" />
             <p className="text-white font-bold md:text-xl">VS code</p>
@@ -139,7 +139,7 @@ const TechStack = () => {
             Actively expanding my skills in emerging technologies{" "}
           </p>
         </div>
-        <div className="my-10 flex flex-wrap md:px-52 px-24 md:gap-x-20  gap-x-5 gap-y-5 justify-center items-center">
+        <div className="my-10 grid grid-cols-1 lg:grid-cols-5 sm:grid-cols-2 md:px-52 px-24 md:gap-x-20  gap-x-5 gap-y-5 justify-center items-center">
           <div className="flex flex-col justify-center items-center gap-3">
             <img src={node} alt="" className="w-[70px]" />
             <p className="text-white font-bold md:text-xl">NodeJS</p>
