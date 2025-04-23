@@ -50,8 +50,8 @@ const Navbar = () => {
   const isActive = (section) => activeSection === section;
 
   return (
-    <div className="fixed w-full top-0 left-0 z-50 bg-[#2A2A2A] bg-opacity-90 backdrop-blur-sm">
-      <nav className="flex justify-between px-5 md:px-20 py-5 max-w-7xl mx-auto">
+    <div className="fixed w-full top-0 left-0  z-50 bg-[#2A2A2A] bg-opacity-90 backdrop-blur-sm ">
+      <nav className="flex justify-between px-5 md:px-20 py-5  max-w-[1280px]">
         <a
           href="#home"
           className="text-gray-300 text-lg font-bold"

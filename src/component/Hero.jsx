@@ -4,7 +4,7 @@ import CV from "../../public/IzzahSalam-CV.pdf";
 
 const Hero = () => {
   return (
-    <div className="flex justify-between lg:px-20 px-12 items-center h-screen bg-inherit">
+    <div className="flex justify-between lg:px-20 px-12 items-center h-screen bg-inherit max-w-[1280px]">
       <div
         id="home"
         className="flex flex-col justify-center items-start md:mt-0 mt-20"
