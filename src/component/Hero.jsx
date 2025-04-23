@@ -1,5 +1,6 @@
 import React from "react";
 import bg from "../assets/izzu1.png";
+import CV from "../../public/IzzahSalam-CV.pdf";
 
 const Hero = () => {
   return (
@@ -19,7 +20,7 @@ const Hero = () => {
         <p className="text-gray-300  mt-4">I make the code simple</p>
 
         <button className="bg-[#009E67] text-white md:px-4 px-2 py-2 rounded mt-6 ">
-          <a href="/IzzahSalam-CV.pdf" download="IzzahSalam-CV.pdf">
+          <a href={CV} download="IzzahSalam-CV.pdf">
             Download CV
           </a>
         </button>
