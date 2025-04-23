@@ -4,7 +4,7 @@ const MyInfo = () => {
   return (
     <div className="bg-[#2A2A2A]  md:px-28 px-10 md:py-10 text-white">
       {/* About Me */}
-      <div className="my-10">
+      <div className="md:my-10">
         <h1 id="about" className="lg:text-6xl md:text-5xl text-3xl font-bold">
           About Me
         </h1>

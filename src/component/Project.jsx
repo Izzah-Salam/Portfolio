@@ -18,10 +18,10 @@ const Project = () => {
           return (
             <div
               key={project.id}
-              className="flex flex-col justify-center rounded-lg  gap-3 bg-[#484848]"
+              className="flex flex-col justify-center rounded-lg overflow-hidden  gap-3 bg-[#484848]"
             >
               <img
-                src="https://i.pinimg.com/474x/d4/b5/05/d4b505a33fa3b67ea37ea7539011e4dc.jpg"
+                src={project.image}
                 alt=""
                 className="w-full h-[300px] object-cover"
               />
@@ -43,14 +43,14 @@ const Project = () => {
                   })}
                 </ul>
               </div>
-              <div className="flex justify-between px-5 mb-5 ">
+              <div className="flex justify-between px-5 mb-5 whitespace-nowrap ">
                 <div>
                   <a
                     href={project.code}
                     target="_blank"
-                    className=" text-white py-2 rounded mt-6 "
+                    className=" text-white py-2 rounded mt-6 lg:text-[16px] md:text-[14px] text-xs"
                   >
-                    <i class="ri-github-fill mr-2 md:text-xl"></i>
+                    <i class="ri-github-fill mr-2 text-xl"></i>
                     View Code
                   </a>
                 </div>
@@ -58,10 +58,10 @@ const Project = () => {
                   <a
                     href={project.link}
                     target="_blank"
-                    className=" text-white px-4 py-2 rounded mt-6 "
+                    className=" text-white px-4 py-2 rounded mt-6 g:text-[16px] md:text-[14px] text-xs "
                   >
                     Live Preview
-                    <i class="ri-arrow-right-up-line ml-1 mr-2 md:text-xl"></i>
+                    <i class="ri-arrow-right-up-line ml-1 mr-2 text-xl"></i>
                   </a>
                 </div>
               </div>

@@ -1,3 +1,7 @@
+import pasteImage from "../../assets/paste.PNG";
+import ecommerceImage from "../../assets/ecommerce.PNG";
+import weatherImage from "../../assets/weather.PNG";
+import tripImage from "../../assets/trip.PNG";
 const projectData = [
   {
     id: 1,
@@ -7,7 +11,7 @@ const projectData = [
     description:
       " An AI-powered trip planner that creates personalized itineraries based on user preferences.",
 
-    image: "path/to/image1.jpg",
+    image: tripImage,
 
     link: "https://ai-trip-taker-r8b51pa3e-izzahs-projects-d7addee6.vercel.app/",
     tech: ["React", "tailwind css", "firebase", "shadcn", "Gemini API"],
@@ -21,7 +25,7 @@ const projectData = [
 
     description:
       " A web application that allows users to create paste, update, delete, View and share text snippets easily.",
-    image: "path/to/image1.jpg",
+    image: pasteImage,
 
     link: "https://pasto-website.vercel.app/",
     tech: ["React", "tailwind css", "ReduxToolkit", "react-router"],
@@ -30,12 +34,12 @@ const projectData = [
   {
     id: 3,
 
-    title: "Weather Web App",
+    title: "Woody Ecommerce Website",
 
     description:
       " A web application that provides real-time weather updates and forecasts hourly and weekly for any location.",
 
-    image: "path/to/image3.jpg",
+    image: ecommerceImage,
 
     link: "https://woody-ecommerce-website-ptb8.vercel.app/",
     tech: ["React", "tailwind css", "ReduxToolkit", "react-router"],
@@ -46,12 +50,12 @@ const projectData = [
   {
     id: 4,
 
-    title: "Woody E-commerce Website",
+    title: "Weather App",
 
     description:
       " An e-commerce website for selling furniture having a Cart and checkout system.",
 
-    image: "path/to/image3.jpg",
+    image: weatherImage,
 
     link: "https://izzah-weather-app-nu-two-99.vercel.app/",
     tech: ["React", "tailwind css", "TanStack Query", "API"],

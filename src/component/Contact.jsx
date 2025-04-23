@@ -37,10 +37,10 @@ const Contact = () => {
   };
 
   return (
-    <div className="flex justify-center items-center flex-col bg-inherit md:pt-40 pt-20 pb-20  text-white ">
+    <div className="flex justify-center items-center flex-col bg-inherit  md:pt-40 pt-20 pb-20  text-white ">
       <h1
         id="contact"
-        className="font-bold lg:text-6xl md:text-5xl text-3xl mb-4"
+        className="font-bold lg:text-6xl md:text-5xl text-3xl mb-4 "
       >
         Contact Me
       </h1>

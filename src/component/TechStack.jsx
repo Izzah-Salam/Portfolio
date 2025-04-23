@@ -7,7 +7,7 @@ import react from "../assets/img/react.png";
 import bootstrap from "../assets/img/bootstrap.png";
 import reactrouter from "../assets/img/react-router.png";
 import vs from "../assets/img/Visual_Studio.png";
-import chrome from "../assets/img/chrome.png";
+
 import chatgpt from "../assets/img/chatgpt.png";
 import vercel from "../assets/img/vercel.png";
 import github from "../assets/img/github.png";
@@ -102,8 +102,8 @@ const TechStack = () => {
             <p className="text-white font-bold md:text-xl">VS code</p>
           </div>
           <div className="flex flex-col justify-center items-center gap-3">
-            <img src={chrome} alt="" className="w-[70px]" />
-            <p className="text-white font-bold md:text-xl">Chrome</p>
+            <img src={github} alt="" className="w-[70px]" />
+            <p className="text-white font-bold md:text-xl">Github</p>
           </div>
           <div className="flex flex-col justify-center items-center gap-3">
             <img src={chatgpt} alt="" className="w-[70px]" />
@@ -118,10 +118,7 @@ const TechStack = () => {
             <img src={figma} alt="" className="w-[60px]" />
             <p className="text-white font-bold md:text-xl">Figma</p>
           </div>
-          <div className="flex flex-col justify-center items-center gap-3">
-            <img src={github} alt="" className="w-[70px]" />
-            <p className="text-white font-bold md:text-xl">Github</p>
-          </div>
+
           <div className="flex flex-col justify-center items-center gap-3">
             <img src={postman} alt="" className="w-[66px]" />
             <p className="text-white font-bold md:text-xl">Postman</p>

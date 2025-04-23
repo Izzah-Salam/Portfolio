@@ -7,7 +7,7 @@ import TechStack from "./component/TechStack";
 
 function App() {
   return (
-    <div className="bg-[#2A2A2A] h-screen w-full overflow-x-hidden">
+    <div className="bg-[#2A2A2A] h-screen max-w-[1280px ] overflow-x-hidden pt-20">
       <Navbar />
       <Hero />
       <TechStack />
