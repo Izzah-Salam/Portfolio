@@ -4,7 +4,7 @@ import Projectdata from "./Data/Projectdata";
 const Project = () => {
   //   const projectData = useParams();
   return (
-    <div className="pt-32  pb-10 bg-inherit max-w-[1280px]">
+    <div className="pt-32  pb-10 bg-inherit max-w-[1280px] mx-auto ">
       <div id="project" className="text-white text-center mb-10">
         <p className="text-4xl font-bold">Projects</p>
         <p className="text-gray-300 text-sm mt-4 ">

@@ -26,7 +26,7 @@ import mongodb from "../assets/img/mongoos.png";
 
 const TechStack = () => {
   return (
-    <div className="flex justify-center items-center flex-col bg-inherit md:py-20 py-10 max-w-[1280px] ">
+    <div className="flex justify-center items-center flex-col bg-inherit md:py-20 py-10 max-w-[1280px]  mx-auto ">
       <div id="skills" className="my-20">
         <div className="text-white text-center mb-10">
           <h1 className="font-bold md:text-3xl text-xl">My Tech Stack</h1>
